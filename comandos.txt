@@ -1,0 +1,17 @@
+  281  git init
+  282  git remote add origin https://github.com/jmontoya05/checkpoint16082023JaiverMontoya.git
+  283  touch main.js index.html
+  284  git add .
+  285  git commit -m "commit 01 de JaiverMontoya"
+  286  git push origin main
+  287  git branch feature
+  288  git checkout feature 
+  289  mkdir hardware software seguridadInformatica
+  290  touch hardware/resumen.txt software/resumen.txt seguridadInformatica/resumen.txt
+  291  git add .
+  292  git commit -m "commit 02 de JaiverMontoya"
+  293  git push origin feature
+  294  git checkout main
+  295  mv main.js resumenHardware.txt
+  296  mv index.html resumenSoftware.txt
+  297  history > comandos.txt
